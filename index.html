@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>객체 반사 신호 생성을 활용한 GPR 시계열 기반 도로 하부 공동 탐지</title>
+
+  <style>
+    body {
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 22px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 9px 16px;
+      border: 1px solid #222;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #222;
+    }
+
+    .button:hover {
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>객체 반사 신호 생성을 활용한 GPR 시계열 기반 도로 하부 공동 탐지</h1>
+
+  <p>
+    객체 신호 생성 기반 데이터 증강과 오분류 재학습을 활용한
+    도로 하부 공동 탐지 연구
+  </p>
+
+  <a href="thesis.pdf" class="button" target="_blank">
+    논문 보기
+  </a>
+
+
+  <h2>연구 동기</h2>
+
+  <p>
+    도로 하부 공동은 지반침하와 같은 도로 안전 문제로 이어질 수 있어
+    사전에 탐지하는 것이 중요하다.
+    지표투과레이더(GPR)는 도로 하부 상태를 비파괴적으로 조사할 수 있지만,
+    실제 도로 환경에 따라 배경 신호 특성이 달라지고 공동 데이터가 부족하여
+    안정적인 탐지가 어렵다.
+  </p>
+
+
+  <h2>연구 내용</h2>
+
+  <p>
+    본 연구에서는 도로 진행방향으로 연속 취득된 GPR 데이터를 시계열로 구성하여
+    인접 신호 간의 관계를 학습한다.
+    또한 실제 도로의 배경 신호에 생성한 객체 신호를 합성하는 데이터 증강을 통해
+    부족한 공동 데이터를 보완하고, 반복적으로 잘못 분류되는 배경 신호와
+    지하 구조물을 우선적으로 재학습하여 공동 오탐을 줄이는 방법을 제안한다.
+  </p>
+
+</body>
+</html>
